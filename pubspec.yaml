@@ -1,0 +1,88 @@
+name: your_app_name
+description: Your app description
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: SF Pro Display
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Regular.otf
+        - asset: assets/fonts/SF-Pro-Display-Bold.otf
+          weight: 700
+        - asset: assets/fonts/SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Display-Semibold.otf
+          weight: 600
+
+    - family: SFProText
+      fonts:
+        - asset: assets/fonts/SF-Pro-Text-Regular.otf
+        - asset: assets/fonts/SF-Pro-Text-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Text-Bold.otf
+          weight: 700
+        - asset: assets/fonts/SF-Pro-Text-Semibold.otf
+          weight: 600
+
+  assets:
+    - assets/images/post1.jpg
+    - assets/images/post2.jpg
+    - assets/images/post3.jpg
+    - assets/images/post4.jpg
+    - assets/images/post5.jpg
+    - assets/images/user1.jpg
+    - assets/images/user2.jpg
+    - assets/images/user3.jpg
+    - assets/images/user4.jpg
+    - assets/images/user5.jpg
+    - assets/images/story1.jpg
+    - assets/images/story2.jpg
+    - assets/images/story3.jpg
+    - assets/images/story4.jpg
+    - assets/images/right_brak.png
+    - assets/images/left_brak.png
+    - assets/images/avatar.png
+    - assets/images/search.png
+    - assets/images/image1.png
+    - assets/images/image2.png
+    - assets/images/image3.png
+    - assets/images/bell.png
+    - assets/images/comment.png
+    - assets/images/heart.png
+    - assets/images/deadline1.png
+    - assets/images/deadline2.png
+    - assets/images/battery.jpg
+    - assets/images/bg.png
+    - assets/images/welcome_icon.png
+    - assets/images/black_friday.jpg
+    - assets/images/rotaract.png
+    - assets/images/msc.png
+    - assets/images/gdg.png
+    - assets/images/mohit.png
+    - assets/images/endterm.png
+    - assets/images/app_icon.png  # launcher icon 
